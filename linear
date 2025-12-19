@@ -1,0 +1,14 @@
+# graficos.py
+import matplotlib.pyplot as plt
+
+#dados das alturas (em cm) eixo X
+alturas = [150,160,165,170,175,180,185]
+
+#dados dos pesos (em quilogramas) eixo Y
+pesos = [50,60,65,70,75,80,85]
+
+plt.scatter(alturas, pesos) #modelo de gráfico
+plt.xlabel('Altura (cm)') #nome que aparece na coluna do eixo X
+plt.ylabel('peso (kg)') #nome que aparece na coluna do eixo Y
+plt.title('Relação entre Altura e Peso') #titulo do graficvo
+plt.show()
